@@ -18,6 +18,7 @@ gemfile:
   - gemfiles/active_record/4-1.gemfile
   - gemfiles/active_record/4-2.gemfile
   - gemfiles/active_record/5-0.gemfile
+  - gemfiles/active_record/5-1.gemfile
   - gemfiles/data_mapper/1-0.gemfile
   - gemfiles/data_mapper/1-1.gemfile
   - gemfiles/data_mapper/1-2.gemfile
@@ -57,6 +58,7 @@ rvm:
   - 2.1.8
   - 2.2.4
   - 2.3.0
+  - 2.4.1
   - ruby-head
 script: bundle exec rspec
 services: mongodb
